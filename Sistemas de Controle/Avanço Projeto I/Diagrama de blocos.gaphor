@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="https://gaphor.org/model" xmlns:Core="https://gaphor.org/modelinglanguage/Core" xmlns:UML="https://gaphor.org/modelinglanguage/UML" xmlns:general="https://gaphor.org/modelinglanguage/general" version="4" gaphor-version="3.3.2">
+<model>
+<Core:StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed"/>
+<UML:Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>Novo modelo</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="422f8ad2-b5bd-11f1-9470-e5b5bacb64ec"/>
+<ref refid="68e683d5-b5be-11f1-b60b-e5b5bacb64ec"/>
+</reflist>
+</ownedType>
+<packagedElement>
+<reflist>
+<ref refid="422f8ad2-b5bd-11f1-9470-e5b5bacb64ec"/>
+<ref refid="68e683d5-b5be-11f1-b60b-e5b5bacb64ec"/>
+</reflist>
+</packagedElement>
+</UML:Package>
+<UML:Diagram id="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec">
+<diagramType>
+<val></val>
+</diagramType>
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>Diagrama de blocos</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="422de466-b5bd-11f1-b4a8-e5b5bacb64ec"/>
+<ref refid="ad3222c8-b5bd-11f1-9754-e5b5bacb64ec"/>
+<ref refid="cc9e222b-b5bd-11f1-a581-e5b5bacb64ec"/>
+<ref refid="09bff5e9-b5be-11f1-911c-e5b5bacb64ec"/>
+<ref refid="151a5630-b5be-11f1-8d09-e5b5bacb64ec"/>
+<ref refid="71fd9264-b5be-11f1-b97b-e5b5bacb64ec"/>
+<ref refid="8b0e0b45-b5be-11f1-91d4-e5b5bacb64ec"/>
+<ref refid="cdd4f7b6-b5be-11f1-af25-e5b5bacb64ec"/>
+<ref refid="cfea2035-b5be-11f1-b8c1-e5b5bacb64ec"/>
+<ref refid="30a75af6-b5be-11f1-b462-e5b5bacb64ec"/>
+<ref refid="49ee68ed-b5be-11f1-83c5-e5b5bacb64ec"/>
+<ref refid="504fe141-b5be-11f1-b06b-e5b5bacb64ec"/>
+<ref refid="57b6aa3a-b5be-11f1-8434-e5b5bacb64ec"/>
+<ref refid="5f790cd6-b5be-11f1-b3a0-e5b5bacb64ec"/>
+<ref refid="914e2fae-b5be-11f1-aafd-e5b5bacb64ec"/>
+<ref refid="a8870c4e-b5be-11f1-a329-e5b5bacb64ec"/>
+<ref refid="e4b050eb-b5be-11f1-8cfc-e5b5bacb64ec"/>
+<ref refid="e8dd6bb4-b5be-11f1-b28a-e5b5bacb64ec"/>
+<ref refid="29368e8e-b5bf-11f1-8b25-e5b5bacb64ec"/>
+<ref refid="2f194f07-b5bf-11f1-a819-e5b5bacb64ec"/>
+</reflist>
+</ownedPresentation>
+</UML:Diagram>
+<UML:InitialNode id="422d947c-b5bd-11f1-85dd-e5b5bacb64ec">
+<activity>
+<ref refid="422f8ad2-b5bd-11f1-9470-e5b5bacb64ec"/>
+</activity>
+<name>
+<val>Plantaçao</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="422de466-b5bd-11f1-b4a8-e5b5bacb64ec"/>
+</reflist>
+</presentation>
+</UML:InitialNode>
+<UML:InitialNodeItem id="422de466-b5bd-11f1-b4a8-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 110.9531021118164, 397.875)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>20.0</val>
+</width>
+<height>
+<val>20.0</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<subject>
+<ref refid="422d947c-b5bd-11f1-85dd-e5b5bacb64ec"/>
+</subject>
+</UML:InitialNodeItem>
+<UML:Activity id="422f8ad2-b5bd-11f1-9470-e5b5bacb64ec">
+<name>
+<val>Activity</val>
+</name>
+<node>
+<reflist>
+<ref refid="422d947c-b5bd-11f1-85dd-e5b5bacb64ec"/>
+<ref refid="71fd3bb7-b5be-11f1-8853-e5b5bacb64ec"/>
+</reflist>
+</node>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+</UML:Activity>
+<general:Box id="ad3222c8-b5bd-11f1-9754-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 1016.9511566162109, 585.0234375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>155.39454650878906</val>
+</width>
+<height>
+<val>79.984375</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<label>
+<val>Aplicar barreiras</val>
+</label>
+</general:Box>
+<general:Box id="cc9e222b-b5bd-11f1-a581-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 588.2421264648438, 382.875)</val>
+</matrix>
+<top-left>
+<val>(0.0, -14.9921875)</val>
+</top-left>
+<width>
+<val>128.65625</val>
+</width>
+<height>
+<val>79.984375</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<label>
+<val>Aguardar um periodo</val>
+</label>
+</general:Box>
+<general:Box id="09bff5e9-b5be-11f1-911c-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 849.9022827148438, 367.8828125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>143.94921875</val>
+</width>
+<height>
+<val>79.984375</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<label>
+<val>Plantaçao pronta</val>
+</label>
+</general:Box>
+<general:Box id="151a5630-b5be-11f1-8d09-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 1100.37109375, 367.8828125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>143.94921875</val>
+</width>
+<height>
+<val>79.984375</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<label>
+<val>Colher plantaçao</val>
+</label>
+</general:Box>
+<UML:ObjectFlowItem id="30a75af6-b5be-11f1-b462-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>False</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 129.13672637939453, 408.66796875)</val>
+</matrix>
+<points>
+<val>[(1.816375732421875, 0.0), (172.80857086181638, -0.79296875)]</val>
+</points>
+<head-connection>
+<ref refid="422de466-b5bd-11f1-b4a8-e5b5bacb64ec"/>
+</head-connection>
+</UML:ObjectFlowItem>
+<UML:ObjectFlowItem id="49ee68ed-b5be-11f1-83c5-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>False</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 446.22265625, 409.68359375)</val>
+</matrix>
+<points>
+<val>[(11.1171875, -1.80859375), (142.01947021484375, -1.80859375)]</val>
+</points>
+</UML:ObjectFlowItem>
+<UML:ObjectFlowItem id="504fe141-b5be-11f1-b06b-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>False</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 717.4140014648438, 403.6875)</val>
+</matrix>
+<points>
+<val>[(-0.515625, 4.1875), (132.48828125, 4.1875)]</val>
+</points>
+</UML:ObjectFlowItem>
+<UML:ObjectFlowItem id="57b6aa3a-b5be-11f1-8434-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>False</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 992.9140014648438, 408.3671875)</val>
+</matrix>
+<points>
+<val>[(0.0, 0.0), (107.45709228515625, 0.30078125)]</val>
+</points>
+</UML:ObjectFlowItem>
+<UML:ObjectFlowItem id="5f790cd6-b5be-11f1-b3a0-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>False</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 1244.5429077148438, 409.40625)</val>
+</matrix>
+<points>
+<val>[(0.0, 0.0), (154.44921875, 0.0)]</val>
+</points>
+</UML:ObjectFlowItem>
+<UML:StateMachine id="68e683d5-b5be-11f1-b60b-e5b5bacb64ec">
+<name>
+<val>State Machine</val>
+</name>
+<owningPackage>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</owningPackage>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<region>
+<reflist>
+<ref refid="68e7c631-b5be-11f1-89cc-e5b5bacb64ec"/>
+</reflist>
+</region>
+</UML:StateMachine>
+<UML:Region id="68e7c631-b5be-11f1-89cc-e5b5bacb64ec">
+<stateMachine>
+<ref refid="68e683d5-b5be-11f1-b60b-e5b5bacb64ec"/>
+</stateMachine>
+</UML:Region>
+<UML:ActivityFinalNode id="71fd3bb7-b5be-11f1-8853-e5b5bacb64ec">
+<activity>
+<ref refid="422f8ad2-b5bd-11f1-9470-e5b5bacb64ec"/>
+</activity>
+<name>
+<val>Plantaçao colhida</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="71fd9264-b5be-11f1-b97b-e5b5bacb64ec"/>
+</reflist>
+</presentation>
+</UML:ActivityFinalNode>
+<UML:ActivityFinalNodeItem id="71fd9264-b5be-11f1-b97b-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 1398.9921264648438, 394.40625)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>30.0</val>
+</width>
+<height>
+<val>30.0</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<subject>
+<ref refid="71fd3bb7-b5be-11f1-8853-e5b5bacb64ec"/>
+</subject>
+</UML:ActivityFinalNodeItem>
+<general:Box id="8b0e0b45-b5be-11f1-91d4-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 301.94529724121094, 377.8828125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>155.39454650878906</val>
+</width>
+<height>
+<val>79.984375</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<label>
+<val>Verificar existencia de pragas</val>
+</label>
+</general:Box>
+<UML:ObjectFlowItem id="914e2fae-b5be-11f1-aafd-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>1</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 378.060546875, 458.421875)</val>
+</matrix>
+<points>
+<val>[(0.0, 0.0), (0.0, 160.671875), (103.27934265136719, 160.671875)]</val>
+</points>
+</UML:ObjectFlowItem>
+<UML:ObjectFlowItem id="a8870c4e-b5be-11f1-a329-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>1</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 776.5956420898438, 408.21484375)</val>
+</matrix>
+<points>
+<val>[(0.0, 0.0), (0.0, -114.58984375), (-396.9530715942383, -114.58984375), (-396.9530715942383, -30.33203125)]</val>
+</points>
+</UML:ObjectFlowItem>
+<general:Box id="cdd4f7b6-b5be-11f1-af25-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 491.3398895263672, 585.0234375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>155.39454650878906</val>
+</width>
+<height>
+<val>79.984375</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<label>
+<val>Pragas encontradas</val>
+</label>
+</general:Box>
+<general:Box id="cfea2035-b5be-11f1-b8c1-e5b5bacb64ec">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 754.9764862060547, 585.0234375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>155.39454650878906</val>
+</width>
+<height>
+<val>79.984375</val>
+</height>
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<label>
+<val>Aplicar inseticidas</val>
+</label>
+</general:Box>
+<UML:ObjectFlowItem id="e4b050eb-b5be-11f1-8cfc-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>False</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 646.2050170898438, 624.96875)</val>
+</matrix>
+<points>
+<val>[(0.0, 0.0), (108.77146911621094, 0.046875)]</val>
+</points>
+</UML:ObjectFlowItem>
+<UML:ObjectFlowItem id="e8dd6bb4-b5be-11f1-b28a-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>False</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 910.5292358398438, 624.40625)</val>
+</matrix>
+<points>
+<val>[(0.0, 0.0), (106.42192077636719, 0.609375)]</val>
+</points>
+</UML:ObjectFlowItem>
+<general:Line id="29368e8e-b5bf-11f1-8b25-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>False</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 1172.2597045898438, 624.25390625)</val>
+</matrix>
+<points>
+<val>[(0.08599853515625, 0.0), (79.85546875, 0.0)]</val>
+</points>
+<head-connection>
+<ref refid="ad3222c8-b5bd-11f1-9754-e5b5bacb64ec"/>
+</head-connection>
+</general:Line>
+<UML:ObjectFlowItem id="2f194f07-b5bf-11f1-a819-e5b5bacb64ec">
+<diagram>
+<ref refid="b375fa70-b5bc-11f1-ab81-e5b5bacb64ec"/>
+</diagram>
+<horizontal>
+<val>False</val>
+</horizontal>
+<orthogonal>
+<val>1</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 1252.1151733398438, 622.04296875)</val>
+</matrix>
+<points>
+<val>[(0.0, 2.2109375), (0.0, -109.68359375), (-599.5449218750001, -109.68359375), (-599.5449218750001, -174.17578125)]</val>
+</points>
+</UML:ObjectFlowItem>
+</model>
+</gaphor>

@@ -1,0 +1,5 @@
+tanenbaum:
+  type: Book
+  title: "Sistemas operacionais modernos"
+  author: Tanenbaum, Andrew S.
+  year: 2026

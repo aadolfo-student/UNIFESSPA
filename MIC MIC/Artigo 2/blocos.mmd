@@ -1,0 +1,23 @@
+block
+columns 3
+  block:input
+  columns 1
+    B0["Botão 0"]
+    B1["Botão 1"]
+    BC["Botão de troca\nde operação"]
+  end
+  PIC
+  block:output
+  columns 1
+    L1["LED 1"]
+    L2["LED 2"]
+    DP["Display de\n7 segmentos"]
+  end
+
+B0-->PIC
+B1-->PIC
+BC-->PIC
+
+PIC-->L1
+PIC-->L2
+PIC-->DP

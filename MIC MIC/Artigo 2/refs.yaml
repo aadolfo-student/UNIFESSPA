@@ -1,0 +1,30 @@
+datasheet:
+  type: Reference
+  title: PIC16F627A/628A/648A Data Sheet
+  author: Microchip
+  url:
+    value: https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/40044G.pdf
+    date: 2026-05-15
+  date: 2009
+
+picsimlab:
+  type: Web
+  title: PicSimLab - Programmable IC Simulator Laboratory
+  author: Luis Claudio Gambôa Lopes
+  url: 
+    value: https://github.com/lcgamboa/picsimlab
+    date: 2026-05-15
+
+assembly-reference:
+  type: Blog
+  title: PIC Assembly Instruction Set | Midrange Devices
+  author: Roland Pelayo
+  url: 
+    value: https://www.teachmemicro.com/pic-assembly-instruction-set/
+    date: 2026-05-15
+
+apostilas:
+  type: Misc
+  title: Apostilas de Sistemas Embarcados e Programação Assembly
+  author: "Elton Alves"
+  location: Pará, Brasil
