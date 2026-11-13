@@ -1,9 +1,11 @@
 #import "@preview/charged-ieee:0.1.4": ieee
 
 #show: ieee.with(
-  title: [Sistema de controle de alimentos para gatos],
+  title: [Self balance: lutando contra a gravidade para se manter de pé],
   abstract: [
-    A alimentação de animais domésticos é uma tarefa que deve ser realizada com boa frequência, como forma de manutenção a cuidado da saúde destes. Aqui, abordaremos um sistema para automatizar a entrega de ração para gatos, entregando certa quantidade de ração quando que estes miarem próximo de suas vasilhas de comida. O sistema também contará com um mecânismo de "time wait", com o objetivo de evitar que o animal extrapole um limite de ração por hora definido.
+    Este trabalho tem por objetivo apresentar o robô "self balance", um dispositivo eletromecânico capaz de se manter de pé, equilibrado em duas rodas, apenas ajustando a velocidade e a direção
+    do giro das rodas. O sistema conta com um ESP32 como cérebro, e dois motores com caixa de redução 3\~6 volts, um giroscópio e um acelerômetro. A partir da leitura dos sensores, o ESP calcula em
+    tempo real a força e a direção para o qual os motores devem trabalhar, garantindo que o autômato permaneça na vertical.
   ],
   authors: (
     (
@@ -24,13 +26,23 @@
   ),
   //bibliography: bibliography("refs.bib"),
   figure-supplement: [Fig.],
-  index-terms: ("Sistemas de controle", "Automação", "Pets", "Micro-controladores")
+  index-terms: ("Sistemas de controle", "Automação", "Equilíbrio", "Micro-controladores")
 )
 
 = Introdução
 
-Abaixo, o diagrama de blocos do sistema de controle de pragas.
+
+
+Abaixo, o diagrama de blocos do sistema eletromecânico de equilíbrio.
 
 #figure(
   image("imagens/block_diagram.png")
 )
+
+Adicionalmente, também desenvolvemos o esquemático do circuito eletrônico:
+
+#figure(
+  image("imagens/schematic.png")
+)
+
+#bibliography("references.yaml", full: true)

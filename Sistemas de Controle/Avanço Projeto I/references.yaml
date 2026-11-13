@@ -1,0 +1,77 @@
+carro_auto_equilibrio_rosa_2024:
+    type: article
+    title: "Carro com auto-equilíbrio em duas rodas, modelagem, simulação do sistema não linear e linearização"
+    author:
+        - "Rosa, Pedro Henrique Rodrigues da"
+        - "Steffanello, Vandrei Rubin"
+        - "Caldeira, André"
+        - "Rech, Charles"
+        - "Maidana, Cristiano Frandalozo"
+        - "Venturini, Simone Ferigolo"
+    date: 2024-11-08
+    serial-number:
+        doi: "10.5902/2179460X87047"
+    parent:
+        type: periodical
+        title: "Ciência e Natura"
+        publisher:
+            name: "Universidade Federal de Santa Maria"
+            location: "Santa Maria, RS, Brasil"
+    url: https://periodicos.ufsm.br/cienciaenatura/article/view/87047
+    language: pt
+
+meraz_self_balancing_2005:
+    type: article
+    title: "Self Balancing System for Rotating Mechanisms"
+    author:
+        - "Meraz, Marco Antonio"
+        - "Yáñez, Andrés"
+        - "Jiménez, Carlos"
+        - "Pichardo, Raúl"
+    date: 2005
+    page-range: 59-64
+    parent:
+        type: periodical
+        title: "Rev. Fac. Ing. - Univ. Tarapacá"
+        volume: 13
+        issue: 2
+
+arduino_abir_2018:
+    type: article
+    title: "Arduino Balancing Itself Robot - ABIR"
+    author: "Arduino By Myself"
+    date: 2018-10-30
+    parent:
+        type: blog
+        title: "Arduino By Myself"
+    url: https://arduinobymyself.blogspot.com/2018/10/arduino-balancing-itself-robot-abir.html
+    language: pt
+
+thomaz_tcc_robo_auto_equilibrante:
+    type: thesis
+    title: "Desenvolvimento de um robô auto equilibrante para aplicações didáticas de sistemas de controle"
+    author:
+        - "Thomaz, Bruna Caroline"
+        - "Gabe, Ivan Jorge"
+    genre: "Trabalho de Conclusão de Curso"
+    organization: "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul – Campus Farroupilha"
+    location: "Farroupilha, Brasil"
+    url: https://repositorio.ifrs.edu.br/xmlui/bitstream/handle/123456789/2084/1234567892084.pdf?sequence=1&isAllowed=y
+    language: pt
+
+goes_robo_duas_rodas_2022:
+    type: article
+    title: "Robô de duas rodas auto equilibrado seguidor de linha"
+    author:
+        - "Goes, Samuel Jakobovitsch"
+        - "Neves, Gabriel Pereira das"
+        - "Angelico, Bruno Augusto"
+    date: 2020-10-12
+    serial-number:
+        doi: "10.20906/CBA2022/515"
+    parent:
+        type: proceedings
+        title: "Congresso Brasileiro de Automática"
+        publisher: "Sociedade Brasileira de Automática"
+    url: https://ojs.sba.org.br/index.php/cba/article/view/515
+    language: pt
